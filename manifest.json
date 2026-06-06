@@ -1,53 +1,1151 @@
 {
   "version": "1.0.0",
   "mc_version": "1.20.1",
-  "forge_version": "1.20.1-47.3.0",
-
+  "forge_version": "1.20.1-47.4.10",
   "news": [
     {
-      "tag": "update",
-      "title": "¡Servidor abierto!",
-      "body": "Bienvenidos al servidor SMP. Ya pueden conectarse y empezar a jugar. Recuerden leer las reglas en el Discord.",
-      "date": "4 de junio de 2026"
-    },
-    {
-      "tag": "event",
-      "title": "Evento de construcción este fin de semana",
-      "body": "Este sábado a las 8pm hora de México habrá un concurso de construcción. El ganador recibirá OP por una semana.",
-      "date": "3 de junio de 2026"
-    },
-    {
       "tag": "info",
-      "title": "Reglas del servidor",
-      "body": "1. No griefing. 2. No robar. 3. Respeta a todos. 4. Diviértete.",
-      "date": "1 de junio de 2026"
+      "title": "Bienvenidos a Project K!",
+      "body": "El servidor ya esta abierto. Instala los mods y conectate.",
+      "date": "5 de junio de 2026"
     }
   ],
-
   "mods": [
     {
-      "name": "JEI (Just Enough Items)",
-      "filename": "jei-1.20.1-forge-15.3.0.4.jar",
-      "version": "15.3.0.4",
-      "description": "Ver recetas y usos de items fácilmente",
-      "hash": "abc123",
-      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+      "name": "alexscaves 2.0.2",
+      "filename": "alexscaves-2.0.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/alexscaves-2.0.2.jar"
     },
     {
-      "name": "AppleSkin",
+      "name": "alexsmobs 1.22.9",
+      "filename": "alexsmobs-1.22.9.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/alexsmobs-1.22.9.jar"
+    },
+    {
+      "name": "amendments 1.20 2.2.5",
+      "filename": "amendments-1.20-2.2.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/amendments-1.20-2.2.5.jar"
+    },
+    {
+      "name": "ApothicAttributes 1.20.1 1.3.7",
+      "filename": "ApothicAttributes-1.20.1-1.3.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ApothicAttributes-1.20.1-1.3.7.jar"
+    },
+    {
+      "name": "appleskin forge mc1.20.1 2.5.1",
       "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
-      "version": "2.5.1",
-      "description": "Muestra la saturación del hambre",
-      "hash": "def456",
-      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/appleskin-forge-mc1.20.1-2.5.1.jar"
     },
     {
-      "name": "Waystones",
-      "filename": "waystones-forge-1.20-14.1.3.jar",
-      "version": "14.1.3",
-      "description": "Piedras de teletransporte para viajes rápidos",
-      "hash": "ghi789",
-      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+      "name": "Aquaculture 1.20.1 2.5.7",
+      "filename": "Aquaculture-1.20.1-2.5.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Aquaculture-1.20.1-2.5.7.jar"
+    },
+    {
+      "name": "architectury 9.2.14 forge",
+      "filename": "architectury-9.2.14-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/architectury-9.2.14-forge.jar"
+    },
+    {
+      "name": "ars nouveau 1.20.1 4.12.7 all",
+      "filename": "ars_nouveau-1.20.1-4.12.7-all.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ars_nouveau-1.20.1-4.12.7-all.jar"
+    },
+    {
+      "name": "artifacts forge 9.5.19",
+      "filename": "artifacts-forge-9.5.19.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/artifacts-forge-9.5.19.jar"
+    },
+    {
+      "name": "balm forge 1.20.1 7.3.38 all",
+      "filename": "balm-forge-1.20.1-7.3.38-all.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/balm-forge-1.20.1-7.3.38-all.jar"
+    },
+    {
+      "name": "betterarcheology 1.2.1 1.20.1",
+      "filename": "betterarcheology-1.2.1-1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/betterarcheology-1.2.1-1.20.1.jar"
+    },
+    {
+      "name": "bettervillage forge 1.20.1 3.3",
+      "filename": "bettervillage-forge-1.20.1-3.3.1-all.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/bettervillage-forge-1.20.1-3.3.1-all.jar"
+    },
+    {
+      "name": "BiomesOPlenty forge 1.20.1 19.",
+      "filename": "BiomesOPlenty-forge-1.20.1-19.0.0.96.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/BiomesOPlenty-forge-1.20.1-19.0.0.96.jar"
+    },
+    {
+      "name": "blueprint 1.20.1 7.1.4",
+      "filename": "blueprint-1.20.1-7.1.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/blueprint-1.20.1-7.1.4.jar"
+    },
+    {
+      "name": "born in chaos [Forge]1.20.1 1.",
+      "filename": "born_in_chaos_[Forge]1.20.1_1.7.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/born_in_chaos_%5BForge%5D1.20.1_1.7.5.jar"
+    },
+    {
+      "name": "brutalbosses 1.20.1 8.5",
+      "filename": "brutalbosses-1.20.1-8.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/brutalbosses-1.20.1-8.5.jar"
+    },
+    {
+      "name": "buzzier bees 1.20.1 6.0.1",
+      "filename": "buzzier_bees-1.20.1-6.0.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/buzzier_bees-1.20.1-6.0.1.jar"
+    },
+    {
+      "name": "bygonenether 1.3.2 1.20.x",
+      "filename": "bygonenether-1.3.2-1.20.x.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/bygonenether-1.3.2-1.20.x.jar"
+    },
+    {
+      "name": "camera forge 1.20.1 1.0.20",
+      "filename": "camera-forge-1.20.1-1.0.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/camera-forge-1.20.1-1.0.20.jar"
+    },
+    {
+      "name": "carryon forge 1.20.1 2.1.2.7",
+      "filename": "carryon-forge-1.20.1-2.1.2.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/carryon-forge-1.20.1-2.1.2.7.jar"
+    },
+    {
+      "name": "cfm forge 1.20.1 7.0.0 pre36",
+      "filename": "cfm-forge-1.20.1-7.0.0-pre36.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cfm-forge-1.20.1-7.0.0-pre36.jar"
+    },
+    {
+      "name": "chat heads 0.15.1 forge 1.20",
+      "filename": "chat_heads-0.15.1-forge-1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/chat_heads-0.15.1-forge-1.20.jar"
+    },
+    {
+      "name": "chisels and bits forge 20.1.20",
+      "filename": "chisels-and-bits-forge-20.1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/chisels-and-bits-forge-20.1.20.jar"
+    },
+    {
+      "name": "citadel 2.6.3 1.20.1",
+      "filename": "citadel-2.6.3-1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/citadel-2.6.3-1.20.1.jar"
+    },
+    {
+      "name": "cleanswing 1.20 1.8",
+      "filename": "cleanswing-1.20-1.8.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cleanswing-1.20-1.8.jar"
+    },
+    {
+      "name": "cloth config 11.1.136 forge",
+      "filename": "cloth-config-11.1.136-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cloth-config-11.1.136-forge.jar"
+    },
+    {
+      "name": "Clumps forge 1.20.1 12.0.0.4",
+      "filename": "Clumps-forge-1.20.1-12.0.0.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Clumps-forge-1.20.1-12.0.0.4.jar"
+    },
+    {
+      "name": "comforts forge 6.4.0+1.20.1",
+      "filename": "comforts-forge-6.4.0+1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/comforts-forge-6.4.0%2B1.20.1.jar"
+    },
+    {
+      "name": "Corgilib Forge 1.20.1 4.0.3.4",
+      "filename": "Corgilib-Forge-1.20.1-4.0.3.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Corgilib-Forge-1.20.1-4.0.3.4.jar"
+    },
+    {
+      "name": "coroutil forge 1.20.1 1.3.7",
+      "filename": "coroutil-forge-1.20.1-1.3.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/coroutil-forge-1.20.1-1.3.7.jar"
+    },
+    {
+      "name": "corpse forge 1.20.1 1.0.23",
+      "filename": "corpse-forge-1.20.1-1.0.23.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/corpse-forge-1.20.1-1.0.23.jar"
+    },
+    {
+      "name": "CreativeCore FORGE v2.12.38 mc",
+      "filename": "CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar"
+    },
+    {
+      "name": "creeperoverhaul 3.0.2 forge",
+      "filename": "creeperoverhaul-3.0.2-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/creeperoverhaul-3.0.2-forge.jar"
+    },
+    {
+      "name": "cristellib 1.1.6 forge",
+      "filename": "cristellib-1.1.6-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cristellib-1.1.6-forge.jar"
+    },
+    {
+      "name": "crittersandcompanions forge 1.",
+      "filename": "crittersandcompanions-forge-1.20.1-2.3.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/crittersandcompanions-forge-1.20.1-2.3.5.jar"
+    },
+    {
+      "name": "Croptopia 1.20.1 FORGE 4.0.1",
+      "filename": "Croptopia-1.20.1-FORGE-4.0.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Croptopia-1.20.1-FORGE-4.0.1.jar"
+    },
+    {
+      "name": "cupboard 1.20.1 3.7",
+      "filename": "cupboard-1.20.1-3.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cupboard-1.20.1-3.7.jar"
+    },
+    {
+      "name": "curios forge 5.14.1+1.20.1",
+      "filename": "curios-forge-5.14.1+1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/curios-forge-5.14.1%2B1.20.1.jar"
+    },
+    {
+      "name": "Darker Depths 1.20.1 2.1.4",
+      "filename": "Darker Depths-1.20.1-2.1.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Darker%20Depths-1.20.1-2.1.4.jar"
+    },
+    {
+      "name": "decorative blocks forge 1.20.1",
+      "filename": "decorative_blocks-forge-1.20.1-4.1.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/decorative_blocks-forge-1.20.1-4.1.3.jar"
+    },
+    {
+      "name": "deeperdarker forge 1.20.1 1.3.",
+      "filename": "deeperdarker-forge-1.20.1-1.3.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/deeperdarker-forge-1.20.1-1.3.3.jar"
+    },
+    {
+      "name": "dragonfight 1.20.1 4.7",
+      "filename": "dragonfight-1.20.1-4.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/dragonfight-1.20.1-4.7.jar"
+    },
+    {
+      "name": "DramaticDoors QuiFabrge 1.20.1",
+      "filename": "DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/DramaticDoors-QuiFabrge-1.20.1-3.3.3.jar"
+    },
+    {
+      "name": "DungeonsAriseSevenSeas 1.20.x ",
+      "filename": "DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/DungeonsAriseSevenSeas-1.20.x-1.0.2-forge.jar"
+    },
+    {
+      "name": "durabilitytooltip 1.1.6 forge ",
+      "filename": "durabilitytooltip-1.1.6-forge-mc1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/durabilitytooltip-1.1.6-forge-mc1.20.jar"
+    },
+    {
+      "name": "dynamiclights 1.20.1.2",
+      "filename": "dynamiclights-1.20.1.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/dynamiclights-1.20.1.2.jar"
+    },
+    {
+      "name": "endergetic 1.20.1 5.0.1",
+      "filename": "endergetic-1.20.1-5.0.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/endergetic-1.20.1-5.0.1.jar"
+    },
+    {
+      "name": "endersdelight forge 1.20.1 1.1",
+      "filename": "endersdelight-forge-1.20.1-1.1.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/endersdelight-forge-1.20.1-1.1.3.jar"
+    },
+    {
+      "name": "entity texture features 1.20.1",
+      "filename": "entity_texture_features_1.20.1-forge-7.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/entity_texture_features_1.20.1-forge-7.1.jar"
+    },
+    {
+      "name": "EpheroLib 1.20.1 FORGE 1.2.0",
+      "filename": "EpheroLib-1.20.1-FORGE-1.2.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/EpheroLib-1.20.1-FORGE-1.2.0.jar"
+    },
+    {
+      "name": "epic knights 1.20.1 forge 10.1",
+      "filename": "epic-knights-1.20.1-forge-10.11.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/epic-knights-1.20.1-forge-10.11.jar"
+    },
+    {
+      "name": "FarmersDelight 1.20.1 1.3.2",
+      "filename": "FarmersDelight-1.20.1-1.3.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/FarmersDelight-1.20.1-1.3.2.jar"
+    },
+    {
+      "name": "forgivingvoid forge 1.20.1 10.",
+      "filename": "forgivingvoid-forge-1.20.1-10.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/forgivingvoid-forge-1.20.1-10.0.3.jar"
+    },
+    {
+      "name": "formations 1.0.4 forge mc1.20.",
+      "filename": "formations-1.0.4-forge-mc1.20.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/formations-1.0.4-forge-mc1.20.2.jar"
+    },
+    {
+      "name": "formationsnether 1.0.5",
+      "filename": "formationsnether-1.0.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/formationsnether-1.0.5.jar"
+    },
+    {
+      "name": "formationsoverworld 1.0.5 mc1.",
+      "filename": "formationsoverworld-1.0.5-mc1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/formationsoverworld-1.0.5-mc1.20.jar"
+    },
+    {
+      "name": "framework forge 1.20.1 0.8.0",
+      "filename": "framework-forge-1.20.1-0.8.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/framework-forge-1.20.1-0.8.0.jar"
+    },
+    {
+      "name": "friendsandfoes forge mc1.20.1 ",
+      "filename": "friendsandfoes-forge-mc1.20.1-3.0.9.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/friendsandfoes-forge-mc1.20.1-3.0.9.jar"
+    },
+    {
+      "name": "fusion 1.2.12 forge mc1.20.1",
+      "filename": "fusion-1.2.12-forge-mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fusion-1.2.12-forge-mc1.20.1.jar"
+    },
+    {
+      "name": "Galosphere 1.20.1 1.5.1 Forge",
+      "filename": "Galosphere-1.20.1-1.5.1-Forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Galosphere-1.20.1-1.5.1-Forge.jar"
+    },
+    {
+      "name": "GatewaysToEternity 1.20.1 4.2.",
+      "filename": "GatewaysToEternity-1.20.1-4.2.6.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/GatewaysToEternity-1.20.1-4.2.6.jar"
+    },
+    {
+      "name": "geckolib forge 1.20.1 4.8.3",
+      "filename": "geckolib-forge-1.20.1-4.8.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/geckolib-forge-1.20.1-4.8.3.jar"
+    },
+    {
+      "name": "GlitchCore forge 1.20.1 0.0.1.",
+      "filename": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/GlitchCore-forge-1.20.1-0.0.1.1.jar"
+    },
+    {
+      "name": "Highlighter 1.20.1 forge 1.1.9",
+      "filename": "Highlighter-1.20.1-forge-1.1.9.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Highlighter-1.20.1-forge-1.1.9.jar"
+    },
+    {
+      "name": "Iceberg 1.20.1 forge 1.1.25",
+      "filename": "Iceberg-1.20.1-forge-1.1.25.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Iceberg-1.20.1-forge-1.1.25.jar"
+    },
+    {
+      "name": "IllagerInvasion v8.0.7 1.20.1 ",
+      "filename": "IllagerInvasion-v8.0.7-1.20.1-Forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/IllagerInvasion-v8.0.7-1.20.1-Forge.jar"
+    },
+    {
+      "name": "immersive aircraft 1.4.0+1.20.",
+      "filename": "immersive_aircraft-1.4.0+1.20.1-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/immersive_aircraft-1.4.0%2B1.20.1-forge.jar"
+    },
+    {
+      "name": "immersive armors 1.7.2+1.20.1 ",
+      "filename": "immersive_armors-1.7.2+1.20.1-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/immersive_armors-1.7.2%2B1.20.1-forge.jar"
+    },
+    {
+      "name": "immersive weathering 1.20.1 2.",
+      "filename": "immersive_weathering-1.20.1-2.0.5-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/immersive_weathering-1.20.1-2.0.5-forge.jar"
+    },
+    {
+      "name": "ItemPhysic FORGE v1.8.13 mc1.2",
+      "filename": "ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ItemPhysic_FORGE_v1.8.13_mc1.20.1.jar"
+    },
+    {
+      "name": "Jade 1.20.1 Forge 11.13.2",
+      "filename": "Jade-1.20.1-Forge-11.13.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Jade-1.20.1-Forge-11.13.2.jar"
+    },
+    {
+      "name": "jei 1.20.1 forge 15.20.0.130",
+      "filename": "jei-1.20.1-forge-15.20.0.130.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/jei-1.20.1-forge-15.20.0.130.jar"
+    },
+    {
+      "name": "letsdo API forge 1.2.15 forge",
+      "filename": "letsdo-API-forge-1.2.15-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/letsdo-API-forge-1.2.15-forge.jar"
+    },
+    {
+      "name": "letsdo brewery forge 1.1.9",
+      "filename": "letsdo-brewery-forge-1.1.9.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/letsdo-brewery-forge-1.1.9.jar"
+    },
+    {
+      "name": "libraryferret forge 1.20.1 4.0",
+      "filename": "libraryferret-forge-1.20.1-4.0.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/libraryferret-forge-1.20.1-4.0.0.jar"
+    },
+    {
+      "name": "lionfishapi 3.0",
+      "filename": "lionfishapi-3.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/lionfishapi-3.0.jar"
+    },
+    {
+      "name": "lithostitched forge 1.20.1 1.4",
+      "filename": "lithostitched-forge-1.20.1-1.4.11.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/lithostitched-forge-1.20.1-1.4.11.jar"
+    },
+    {
+      "name": "L Enders Cataclysm 3.29",
+      "filename": "L_Enders_Cataclysm-3.29.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/L_Enders_Cataclysm-3.29.jar"
+    },
+    {
+      "name": "majrusz library forge 1.20.1 7",
+      "filename": "majrusz-library-forge-1.20.1-7.0.8.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/majrusz-library-forge-1.20.1-7.0.8.jar"
+    },
+    {
+      "name": "majruszs difficulty forge 1.20",
+      "filename": "majruszs-difficulty-forge-1.20.1-1.9.10.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/majruszs-difficulty-forge-1.20.1-1.9.10.jar"
+    },
+    {
+      "name": "mcdw 9.0.4",
+      "filename": "mcdw-9.0.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcdw-9.0.4.jar"
+    },
+    {
+      "name": "mcw bridges 3.1.2 mc1.20.1forg",
+      "filename": "mcw-bridges-3.1.2-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-bridges-3.1.2-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw doors 1.1.5 mc1.20.1forge",
+      "filename": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-doors-1.1.5-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw furniture 3.4.1 mc1.20.1fo",
+      "filename": "mcw-furniture-3.4.1-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-furniture-3.4.1-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw mcwfences 1.2.1 mc1.20.1fo",
+      "filename": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-mcwfences-1.2.1-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw mcwwindows 2.4.2 mc1.20.1f",
+      "filename": "mcw-mcwwindows-2.4.2-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-mcwwindows-2.4.2-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw roofs 2.3.2 mc1.20.1forge",
+      "filename": "mcw-roofs-2.3.2-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-roofs-2.3.2-mc1.20.1forge.jar"
+    },
+    {
+      "name": "mcw trapdoors 1.1.5 mc1.20.1fo",
+      "filename": "mcw-trapdoors-1.1.5-mc1.20.1forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/mcw-trapdoors-1.1.5-mc1.20.1forge.jar"
+    },
+    {
+      "name": "moonlight 1.20 2.16.32 forge",
+      "filename": "moonlight-1.20-2.16.32-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/moonlight-1.20-2.16.32-forge.jar"
+    },
+    {
+      "name": "MutantMonsters v8.0.8 1.20.1 F",
+      "filename": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/MutantMonsters-v8.0.8-1.20.1-Forge.jar"
+    },
+    {
+      "name": "naturalist 5.0pre2+forge 1.20.",
+      "filename": "naturalist-5.0pre2+forge-1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/naturalist-5.0pre2%2Bforge-1.20.1.jar"
+    },
+    {
+      "name": "notenoughanimations forge 1.12",
+      "filename": "notenoughanimations-forge-1.12.3-mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/notenoughanimations-forge-1.12.3-mc1.20.1.jar"
+    },
+    {
+      "name": "nyfsspiders Forge 1.12.2 3.0.0",
+      "filename": "nyfsspiders-Forge-1.12.2-3.0.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/nyfsspiders-Forge-1.12.2-3.0.0.jar"
+    },
+    {
+      "name": "oceansdelight 1.0.2 1.20",
+      "filename": "oceansdelight-1.0.2-1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/oceansdelight-1.0.2-1.20.jar"
+    },
+    {
+      "name": "Oh The Biomes Weve Gone Forge ",
+      "filename": "Oh-The-Biomes-Weve-Gone-Forge-1.7.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Oh-The-Biomes-Weve-Gone-Forge-1.7.5.jar"
+    },
+    {
+      "name": "Oh The Trees Youll Grow forge ",
+      "filename": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.6.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Oh-The-Trees-Youll-Grow-forge-1.20.1-1.6.0.jar"
+    },
+    {
+      "name": "Paraglider forge 20.1.3",
+      "filename": "Paraglider-forge-20.1.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Paraglider-forge-20.1.3.jar"
+    },
+    {
+      "name": "Placebo 1.20.1 8.6.3",
+      "filename": "Placebo-1.20.1-8.6.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Placebo-1.20.1-8.6.3.jar"
+    },
+    {
+      "name": "PlayerRevive FORGE v2.0.31 mc1",
+      "filename": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar"
+    },
+    {
+      "name": "PuzzlesLib v8.1.33 1.20.1 Forg",
+      "filename": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/PuzzlesLib-v8.1.33-1.20.1-Forge.jar"
+    },
+    {
+      "name": "Raided 1.20.1 0.1.6",
+      "filename": "Raided-1.20.1-0.1.6.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Raided-1.20.1-0.1.6.jar"
+    },
+    {
+      "name": "refurbished furniture forge 1.",
+      "filename": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/refurbished_furniture-forge-1.20.1-1.0.20.jar"
+    },
+    {
+      "name": "resourcefulconfig forge 1.20.1",
+      "filename": "resourcefulconfig-forge-1.20.1-2.1.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+    },
+    {
+      "name": "shieldexp forge 1.20.1 1.3.7",
+      "filename": "shieldexp-forge-1.20.1-1.3.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/shieldexp-forge-1.20.1-1.3.7.jar"
+    },
+    {
+      "name": "silent gear 1.20.1 3.6.7",
+      "filename": "silent-gear-1.20.1-3.6.7.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/silent-gear-1.20.1-3.6.7.jar"
+    },
+    {
+      "name": "silent lib 1.20.1 8.0.0",
+      "filename": "silent-lib-1.20.1-8.0.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/silent-lib-1.20.1-8.0.0.jar"
+    },
+    {
+      "name": "sit 1.20.1 1.3.5",
+      "filename": "sit-1.20.1-1.3.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/sit-1.20.1-1.3.5.jar"
+    },
+    {
+      "name": "SkyVillages 1.0.4 1.19.2 1.20.",
+      "filename": "SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/SkyVillages-1.0.4-1.19.2-1.20.1-forge-release.jar"
+    },
+    {
+      "name": "sophisticatedbackpacks 1.20.1 ",
+      "filename": "sophisticatedbackpacks-1.20.1-3.24.43.1789.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/sophisticatedbackpacks-1.20.1-3.24.43.1789.jar"
+    },
+    {
+      "name": "sophisticatedcore 1.20.1 1.3.3",
+      "filename": "sophisticatedcore-1.20.1-1.3.38.1893.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/sophisticatedcore-1.20.1-1.3.38.1893.jar"
+    },
+    {
+      "name": "stalwart dungeons 1.20.1 1.2.8",
+      "filename": "stalwart-dungeons-1.20.1-1.2.8.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/stalwart-dungeons-1.20.1-1.2.8.jar"
+    },
+    {
+      "name": "Structory 1.20.x v1.3.5",
+      "filename": "Structory_1.20.x_v1.3.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Structory_1.20.x_v1.3.5.jar"
+    },
+    {
+      "name": "supermartijn642configlib 1.1.8",
+      "filename": "supermartijn642configlib-1.1.8-forge-mc1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/supermartijn642configlib-1.1.8-forge-mc1.20.jar"
+    },
+    {
+      "name": "supermartijn642corelib 1.1.21 ",
+      "filename": "supermartijn642corelib-1.1.21-forge-mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/supermartijn642corelib-1.1.21-forge-mc1.20.1.jar"
+    },
+    {
+      "name": "supplementaries 1.20 3.1.43 fo",
+      "filename": "supplementaries-1.20-3.1.43-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/supplementaries-1.20-3.1.43-forge.jar"
+    },
+    {
+      "name": "suppsquared 1.20 1.1.29",
+      "filename": "suppsquared-1.20-1.1.29.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/suppsquared-1.20-1.1.29.jar"
+    },
+    {
+      "name": "tacz 1.20.1 1.1.8 hotfix",
+      "filename": "tacz-1.20.1-1.1.8-hotfix.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/tacz-1.20.1-1.1.8-hotfix.jar"
+    },
+    {
+      "name": "takesapillage 1.0.3 1.20.1",
+      "filename": "takesapillage-1.0.3-1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/takesapillage-1.0.3-1.20.1.jar"
+    },
+    {
+      "name": "tectonic 3.0.17 forge 1.20.1",
+      "filename": "tectonic-3.0.17-forge-1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/tectonic-3.0.17-forge-1.20.1.jar"
+    },
+    {
+      "name": "tempad forge 1.20.1 2.3.4",
+      "filename": "tempad-forge-1.20.1-2.3.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/tempad-forge-1.20.1-2.3.4.jar"
+    },
+    {
+      "name": "TerraBlender forge 1.20.1 3.0.",
+      "filename": "TerraBlender-forge-1.20.1-3.0.1.10.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/TerraBlender-forge-1.20.1-3.0.1.10.jar"
+    },
+    {
+      "name": "Towns and Towers 1.12 Fabric+F",
+      "filename": "Towns-and-Towers-1.12-Fabric+Forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Towns-and-Towers-1.12-Fabric%2BForge.jar"
+    },
+    {
+      "name": "trade cycling forge 1.20.1 1.0",
+      "filename": "trade-cycling-forge-1.20.1-1.0.18.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/trade-cycling-forge-1.20.1-1.0.18.jar"
+    },
+    {
+      "name": "trashcans 1.0.18b forge mc1.20",
+      "filename": "trashcans-1.0.18b-forge-mc1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/trashcans-1.0.18b-forge-mc1.20.jar"
+    },
+    {
+      "name": "Tumbleweed forge 1.20.1 0.5.5",
+      "filename": "Tumbleweed-forge-1.20.1-0.5.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/Tumbleweed-forge-1.20.1-0.5.5.jar"
+    },
+    {
+      "name": "upgrade aquatic 1.20.1 6.0.3",
+      "filename": "upgrade_aquatic-1.20.1-6.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/upgrade_aquatic-1.20.1-6.0.3.jar"
+    },
+    {
+      "name": "villagesandpillages forge mc1.",
+      "filename": "villagesandpillages-forge-mc1.20.1-1.0.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/villagesandpillages-forge-mc1.20.1-1.0.2.jar"
+    },
+    {
+      "name": "watut forge 1.20.1 1.2.3",
+      "filename": "watut-forge-1.20.1-1.2.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/watut-forge-1.20.1-1.2.3.jar"
+    },
+    {
+      "name": "waystones forge 1.20.1 14.1.20",
+      "filename": "waystones-forge-1.20.1-14.1.20.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/waystones-forge-1.20.1-14.1.20.jar"
+    },
+    {
+      "name": "YungsApi 1.20 Forge 4.0.6",
+      "filename": "YungsApi-1.20-Forge-4.0.6.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsApi-1.20-Forge-4.0.6.jar"
+    },
+    {
+      "name": "YungsBetterDesertTemples 1.20 ",
+      "filename": "YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar"
+    },
+    {
+      "name": "YungsBetterDungeons 1.20 Forge",
+      "filename": "YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterDungeons-1.20-Forge-4.0.4.jar"
+    },
+    {
+      "name": "YungsBetterEndIsland 1.20 Forg",
+      "filename": "YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterEndIsland-1.20-Forge-2.0.6.jar"
+    },
+    {
+      "name": "YungsBetterJungleTemples 1.20 ",
+      "filename": "YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar"
+    },
+    {
+      "name": "YungsBetterMineshafts 1.20 For",
+      "filename": "YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterMineshafts-1.20-Forge-4.0.4.jar"
+    },
+    {
+      "name": "YungsBetterNetherFortresses 1.",
+      "filename": "YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar"
+    },
+    {
+      "name": "YungsBetterOceanMonuments 1.20",
+      "filename": "YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar"
+    },
+    {
+      "name": "YungsBetterStrongholds 1.20 Fo",
+      "filename": "YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterStrongholds-1.20-Forge-4.0.3.jar"
+    },
+    {
+      "name": "YungsBetterWitchHuts 1.20 Forg",
+      "filename": "YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar"
+    },
+    {
+      "name": "YungsBridges 1.20 Forge 4.0.3",
+      "filename": "YungsBridges-1.20-Forge-4.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBridges-1.20-Forge-4.0.3.jar"
+    },
+    {
+      "name": "YungsExtras 1.20 Forge 4.0.3",
+      "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsExtras-1.20-Forge-4.0.3.jar"
+    },
+    {
+      "name": "[1.20.1] SecurityCraft v1.10.1",
+      "filename": "[1.20.1] SecurityCraft v1.10.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/%5B1.20.1%5D%20SecurityCraft%20v1.10.1.jar"
     }
   ]
 }
