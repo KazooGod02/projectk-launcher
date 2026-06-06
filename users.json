@@ -4,5 +4,53 @@
   "password_hash": "d92aa94ab59e0bf76280477213ff4ee269a587b77b5007dcdbc0d458e9b8593b",
   "rank": "owner",
   "mc_type": "offline"
+  },
+  {
+  "username": "ManuelMR",
+  "password_hash": "9db2d8417737e0540caf89fee0f07bac0ac73ff7c02c9e01153ad9ce9287ca98",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "ErickAguacate",
+  "password_hash": "2ab80306cf1d0820b1a21fe75c9b1fac710e458497d468ed6f76c5e2d2fb9843",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "Coqui",
+  "password_hash": "469b8baf0761208d2e9750630cc4fecf245676af03acc6af95a8e1281e9f1c64",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "renn",
+  "password_hash": "1fce486ad4efd8440547179d64c91c1ac3c01f6eeb9ad674aefacb7204d6d692",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "Ghenghis",
+  "password_hash": "ca60f1f05b684f9eb0110ce989a6027871a1ae5ca6930ea9b632f3c1a95eadb3",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "SantiVRGS",
+  "password_hash": "cd401c38fd161a199ffe05a624b16f038a06511e075800cbf43fd78283e4a0d5",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "Danilo",
+  "password_hash": "6969529deda9d3bcdbe4577e73593cf0ee38561a1ca6c8971ded2fb12267b995",
+  "rank": "vip",
+  "mc_type": "offline"
+  },
+  {
+  "username": "Leading",
+  "password_hash": "82b9a45a524601b929a50fd459dc1650611a45b2ebfede69e5ba70c413ece7fa",
+  "rank": "vip",
+  "mc_type": "offline"
   }
 ]
