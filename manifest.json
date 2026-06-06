@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "mc_version": "1.20.1",
+  "forge_version": "1.20.1-47.3.0",
+
+  "news": [
+    {
+      "tag": "update",
+      "title": "¡Servidor abierto!",
+      "body": "Bienvenidos al servidor SMP. Ya pueden conectarse y empezar a jugar. Recuerden leer las reglas en el Discord.",
+      "date": "4 de junio de 2026"
+    },
+    {
+      "tag": "event",
+      "title": "Evento de construcción este fin de semana",
+      "body": "Este sábado a las 8pm hora de México habrá un concurso de construcción. El ganador recibirá OP por una semana.",
+      "date": "3 de junio de 2026"
+    },
+    {
+      "tag": "info",
+      "title": "Reglas del servidor",
+      "body": "1. No griefing. 2. No robar. 3. Respeta a todos. 4. Diviértete.",
+      "date": "1 de junio de 2026"
+    }
+  ],
+
+  "mods": [
+    {
+      "name": "JEI (Just Enough Items)",
+      "filename": "jei-1.20.1-forge-15.3.0.4.jar",
+      "version": "15.3.0.4",
+      "description": "Ver recetas y usos de items fácilmente",
+      "hash": "abc123",
+      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+    },
+    {
+      "name": "AppleSkin",
+      "filename": "appleskin-forge-mc1.20.1-2.5.1.jar",
+      "version": "2.5.1",
+      "description": "Muestra la saturación del hambre",
+      "hash": "def456",
+      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+    },
+    {
+      "name": "Waystones",
+      "filename": "waystones-forge-1.20-14.1.3.jar",
+      "version": "14.1.3",
+      "description": "Piedras de teletransporte para viajes rápidos",
+      "hash": "ghi789",
+      "url": "https://drive.google.com/uc?export=download&id=REEMPLAZA_CON_TU_FILE_ID"
+    }
+  ]
+}
