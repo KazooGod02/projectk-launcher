@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -1114,14 +1114,6 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBridges-1.20-Forge-4.0.3.jar"
-    },
-    {
-      "name": "YungsExtras 1.20 Forge 4.0.3",
-      "filename": "YungsExtras-1.20-Forge-4.0.3.jar",
-      "version": "1.0",
-      "description": "",
-      "hash": "v1",
-      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsExtras-1.20-Forge-4.0.3.jar"
     },
     {
       "name": "[1.20.1] SecurityCraft v1.10.1",
