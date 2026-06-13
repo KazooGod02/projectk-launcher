@@ -1,5 +1,5 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -722,14 +722,6 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/oceansdelight-1.0.2-1.20.jar"
-    },
-    {
-      "name": "oculus mc1.20.1 1.8.0",
-      "filename": "oculus-mc1.20.1-1.8.0.jar",
-      "version": "1.0",
-      "description": "",
-      "hash": "v1",
-      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/oculus-mc1.20.1-1.8.0.jar"
     },
     {
       "name": "Oh The Biomes Weve Gone Forge ",
