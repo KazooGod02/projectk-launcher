@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.8",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -26,6 +26,14 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/alexsmobs-1.22.9.jar"
+    },
+    {
+      "name": "AmbientSounds FORGE v6.3.8 mc1",
+      "filename": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar"
     },
     {
       "name": "amendments 1.20 2.2.5",
@@ -308,6 +316,14 @@
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/decorative_blocks-forge-1.20.1-4.1.3.jar"
     },
     {
+      "name": "DistantHorizons 3.0.3 b 1.20.1",
+      "filename": "DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/DistantHorizons-3.0.3-b-1.20.1-fabric-forge.jar"
+    },
+    {
       "name": "dragonfight 1.20.1 4.7",
       "filename": "dragonfight-1.20.1-4.7.jar",
       "version": "1.0",
@@ -442,6 +458,30 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/friendsandfoes-forge-mc1.20.1-3.0.9.jar"
+    },
+    {
+      "name": "ftb library forge 2001.2.13",
+      "filename": "ftb-library-forge-2001.2.13.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ftb-library-forge-2001.2.13.jar"
+    },
+    {
+      "name": "ftb quests forge 2001.4.22",
+      "filename": "ftb-quests-forge-2001.4.22.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ftb-quests-forge-2001.4.22.jar"
+    },
+    {
+      "name": "ftb teams forge 2001.3.2",
+      "filename": "ftb-teams-forge-2001.3.2.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ftb-teams-forge-2001.3.2.jar"
     },
     {
       "name": "fusion 1.2.12 forge mc1.20.1",
@@ -850,6 +890,14 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/sophisticatedcore-1.20.1-1.3.38.1893.jar"
+    },
+    {
+      "name": "sound physics remastered forge",
+      "filename": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/sound-physics-remastered-forge-1.20.1-1.4.10.jar"
     },
     {
       "name": "stalwart dungeons 1.20.1 1.2.8",
