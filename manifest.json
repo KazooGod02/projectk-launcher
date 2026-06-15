@@ -1,5 +1,5 @@
 {
-  "version": "1.0.8",
+  "version": "1.0.9",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -7,7 +7,7 @@
       "tag": "info",
       "title": "Bienvenidos a Project K!",
       "body": "El servidor ya esta abierto. Instala los mods y conectate.",
-      "date": "6 de junio de 2026"
+      "date": "14 de junio de 2026"
     }
   ],
   "mods": [
@@ -764,6 +764,14 @@
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/oceansdelight-1.0.2-1.20.jar"
     },
     {
+      "name": "oculus mc1.20.1 1.8.0",
+      "filename": "oculus-mc1.20.1-1.8.0.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/oculus-mc1.20.1-1.8.0.jar"
+    },
+    {
       "name": "Oh The Biomes Weve Gone Forge ",
       "filename": "Oh-The-Biomes-Weve-Gone-Forge-1.7.5.jar",
       "version": "1.0",
@@ -834,6 +842,14 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/resourcefulconfig-forge-1.20.1-2.1.3.jar"
+    },
+    {
+      "name": "rubidium mc1.20.1 0.7.1a",
+      "filename": "rubidium-mc1.20.1-0.7.1a.jar",
+      "version": "1.0",
+      "description": "",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/rubidium-mc1.20.1-0.7.1a.jar"
     },
     {
       "name": "shieldexp forge 1.20.1 1.3.7",
