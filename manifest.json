@@ -1,5 +1,5 @@
 {
-  "version": "1.1.3",
+  "version": "1.1.4",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -1082,14 +1082,6 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/watermedia_youtube_plugin-2.1.2.jar"
-    },
-    {
-      "name": "watervision FG mc1.20.1 v0.1.0",
-      "filename": "watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
-      "version": "1.0",
-      "description": "",
-      "hash": "v1",
-      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/watervision-FG-mc1.20.1-v0.1.0-alpha.jar"
     },
     {
       "name": "watut forge 1.20.1 1.2.3",
