@@ -1,5 +1,5 @@
 {
-  "version": "1.1.8",
+  "version": "1.1.9",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -180,12 +180,12 @@
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/cfm-forge-1.20.1-7.0.0-pre36.jar"
     },
     {
-      "name": "chat heads 0.15.1 forge 1.20",
-      "filename": "chat_heads-0.15.1-forge-1.20.jar",
+      "name": "chat heads 0.15.2 forge 1.20",
+      "filename": "chat_heads-0.15.2-forge-1.20.jar",
       "version": "1.0",
       "description": "",
       "hash": "v1",
-      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/chat_heads-0.15.1-forge-1.20.jar"
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/chat_heads-0.15.2-forge-1.20.jar"
     },
     {
       "name": "chisels and bits forge 20.1.20",
@@ -1106,6 +1106,38 @@
       "description": "Jefes custom: oozaK y la Anomalia",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/projectk-bosses-1.0.0.jar"
+    },
+    {
+      "name": "Connected Glass 1.1.14",
+      "filename": "connectedglass-1.1.14-forge-mc1.20.1.jar",
+      "version": "1.0",
+      "description": "Cristales conectados sin bordes",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/connectedglass-1.1.14-forge-mc1.20.1.jar"
+    },
+    {
+      "name": "Easy NPC 6.20.0",
+      "filename": "easy_npc-forge-1.20.1-6.20.0.jar",
+      "version": "1.0",
+      "description": "Crea NPCs personalizados",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/easy_npc-forge-1.20.1-6.20.0.jar"
+    },
+    {
+      "name": "Easy NPC Config UI 6.20.0",
+      "filename": "easy_npc_config_ui-forge-1.20.1-6.20.0.jar",
+      "version": "1.0",
+      "description": "Interfaz de configuracion para Easy NPC",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/easy_npc_config_ui-forge-1.20.1-6.20.0.jar"
+    },
+    {
+      "name": "Easy NPC Bundle 6.20.0",
+      "filename": "easy_npc_bundle-forge-1.20.1-6.20.0.jar",
+      "version": "1.0",
+      "description": "Paquete de extras para Easy NPC",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/easy_npc_bundle-forge-1.20.1-6.20.0.jar"
     },
     {
       "name": "watut forge 1.20.1 1.2.3",
