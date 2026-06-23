@@ -1,7 +1,34 @@
 {
-  "version": "1.1.11",
+  "version": "1.1.12",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
+  "configs": [
+    {
+      "path": "config/fancymenu/customization/projectkversion1layout.txt",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/projectkversion1layout.txt"
+    },
+    {
+      "path": "config/fancymenu/customization/connect_screen_layout.txt",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/connect_screen_layout.txt"
+    },
+    {
+      "path": "config/fancymenu/assets/boom.ogg",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fancymenu_boom.ogg"
+    },
+    {
+      "path": "config/fancymenu/assets/music.ogg",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fancymenu_music.ogg"
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fancymenu_options.txt"
+    }
+  ],
   "news": [
     {
       "tag": "info",
