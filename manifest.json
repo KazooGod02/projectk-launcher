@@ -1,5 +1,5 @@
 {
-  "version": "1.1.9",
+  "version": "1.1.10",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "news": [
@@ -1138,6 +1138,14 @@
       "description": "Paquete de extras para Easy NPC",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/easy_npc_bundle-forge-1.20.1-6.20.0.jar"
+    },
+    {
+      "name": "CMDCam 2.2.0",
+      "filename": "CMDCam_FORGE_v2.2.0_mc1.20.1.jar",
+      "version": "1.0",
+      "description": "Camara cinematica por comandos",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/CMDCam_FORGE_v2.2.0_mc1.20.1.jar"
     },
     {
       "name": "watut forge 1.20.1 1.2.3",
