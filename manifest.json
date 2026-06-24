@@ -1,5 +1,5 @@
 {
-  "version": "1.1.12",
+  "version": "1.1.13",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "configs": [
@@ -27,6 +27,11 @@
       "path": "config/fancymenu/options.txt",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fancymenu_options.txt"
+    },
+    {
+      "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/FreshAnimations_v1.10.4.zip"
     }
   ],
   "news": [
@@ -1197,6 +1202,14 @@
       "description": "Menus personalizados (solo cliente)",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/fancymenu_forge_3.9.3_MC_1.20.1.jar"
+    },
+    {
+      "name": "Entity Model Features 3.2.4",
+      "filename": "entity_model_features-3.2.4-1.20.1-forge.jar",
+      "version": "1.0",
+      "description": "Necesario para animaciones de Fresh Animations",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/entity_model_features-3.2.4-1.20.1-forge.jar"
     },
     {
       "name": "watut forge 1.20.1 1.2.3",
