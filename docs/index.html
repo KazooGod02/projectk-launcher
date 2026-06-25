@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Project K</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:100%;height:100%;overflow:hidden;background:#000;font-family:'Segoe UI',system-ui,sans-serif;cursor:default}
+  #sky{position:fixed;inset:0;transition:background 2s linear;z-index:0}
+  /* capa de estrellas */
+  #stars{position:fixed;inset:0;z-index:1;pointer-events:none;transition:opacity 2s linear}
+  .star{position:absolute;background:#fff;border-radius:50%;animation:tw var(--d) ease-in-out infinite alternate}
+  @keyframes tw{from{opacity:.15}to{opacity:1}}
+  /* resplandor cálido del horizonte (amanecer/atardecer) */
+  #glow{position:fixed;left:0;right:0;bottom:0;height:55%;z-index:2;pointer-events:none;transition:opacity 2s linear;
+        background:radial-gradient(ellipse 80% 100% at 50% 120%, rgba(255,150,70,.55) 0%, rgba(255,110,60,.18) 40%, transparent 70%)}
+  /* astro (sol/luna) que recorre un arco */
+  #body{position:fixed;z-index:2;width:90px;height:90px;border-radius:50%;pointer-events:none;
+        transform:translate(-50%,-50%);transition:opacity 2s linear, background 2s linear, box-shadow 2s linear}
+
+  /* ── LUZ CENTRAL / BOTÓN OJO ── */
+  #eye{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:5;
+       width:120px;height:120px;display:flex;align-items:center;justify-content:center;
+       cursor:pointer;transition:width .5s cubic-bezier(.2,.8,.2,1),height .5s cubic-bezier(.2,.8,.2,1)}
+  /* el spot blurred blanco siempre visible */
+  #eye .spot{position:absolute;inset:0;border-radius:50%;
+       background:radial-gradient(circle, rgba(255,255,255,.95) 0%, rgba(255,255,255,.5) 30%, rgba(255,255,255,0) 70%);
+       filter:blur(6px);animation:pulse 4s ease-in-out infinite;transition:all .5s}
+  @keyframes pulse{0%,100%{opacity:.85;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+  /* halo exterior */
+  #eye::before{content:'';position:absolute;width:240%;height:240%;border-radius:50%;
+       background:radial-gradient(circle, rgba(255,255,255,.25) 0%, transparent 60%);
+       filter:blur(14px);transition:all .5s;pointer-events:none}
+  /* el ojo, oculto por defecto */
+  #eye .eye-icon{position:relative;z-index:2;width:60%;height:60%;opacity:0;transform:scale(.7);
+       transition:opacity .45s ease, transform .45s cubic-bezier(.2,.8,.2,1);
+       color:#0a0a12;filter:drop-shadow(0 0 6px rgba(255,255,255,.8))}
+  /* hover: se agranda y aparece el ojo */
+  #eye:hover{width:200px;height:200px}
+  #eye:hover .spot{filter:blur(3px);background:radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,.65) 45%, rgba(255,255,255,0) 72%)}
+  #eye:hover::before{width:280%;height:280%;background:radial-gradient(circle, rgba(255,255,255,.45) 0%, transparent 62%)}
+  #eye:hover .eye-icon{opacity:1;transform:scale(1)}
+
+  /* reloj sutil opcional, esquina */
+  #clock{position:fixed;bottom:14px;right:18px;z-index:6;color:rgba(255,255,255,.35);
+         font-size:12px;letter-spacing:.15em;font-variant-numeric:tabular-nums;pointer-events:none}
+
+  @media (prefers-reduced-motion:reduce){.star,#eye .spot{animation:none}}
+</style>
+</head>
+<body>
+  <div id="sky"></div>
+  <div id="stars"></div>
+  <div id="glow"></div>
+  <div id="body"></div>
+
+  <a id="eye" href="#" title="">
+    <div class="spot"></div>
+    <svg class="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"/>
+      <circle cx="12" cy="12" r="3.2" fill="currentColor"/>
+    </svg>
+  </a>
+
+  <div id="clock"></div>
+
+<script>
+  // ── Enlace de descarga del launcher oculto ("aún no público") ──
+  const DOWNLOAD_URL = "https://github.com/KazooGod02/projectk-launcher/releases/download/teaser/Project-K-Setup-0.1.0.exe";
+  document.getElementById('eye').setAttribute('href', DOWNLOAD_URL);
+
+  // ── Paleta del cielo por hora (top y bottom del degradado) ──
+  const SKY = [
+    {h:0,    top:[6,8,22],     bot:[16,16,44]},    // noche profunda
+    {h:5,    top:[24,20,54],   bot:[92,64,104]},   // previo al alba
+    {h:6.5,  top:[44,60,112],  bot:[240,150,108]}, // amanecer
+    {h:9,    top:[44,112,212], bot:[190,218,246]}, // mañana
+    {h:13,   top:[34,120,218], bot:[176,212,246]}, // mediodía
+    {h:17,   top:[44,108,206], bot:[206,216,232]}, // tarde
+    {h:18.5, top:[58,40,110],  bot:[228,98,54]},   // atardecer
+    {h:20,   top:[26,20,66],   bot:[104,56,92]},   // ocaso
+    {h:22,   top:[8,8,28],     bot:[24,24,58]},    // noche
+    {h:24,   top:[6,8,22],     bot:[16,16,44]}     // wrap
+  ];
+  const lerp=(a,b,t)=>a+(b-a)*t;
+  const lerpC=(c1,c2,t)=>[Math.round(lerp(c1[0],c2[0],t)),Math.round(lerp(c1[1],c2[1],t)),Math.round(lerp(c1[2],c2[2],t))];
+  function skyAt(hour){
+    let i=0; while(i<SKY.length-1 && hour>=SKY[i+1].h) i++;
+    const a=SKY[i], b=SKY[i+1]||a;
+    const t=(b.h-a.h)?(hour-a.h)/(b.h-a.h):0;
+    return {top:lerpC(a.top,b.top,t), bot:lerpC(a.bot,b.bot,t)};
+  }
+  // factor de "noche" (1 = estrellas, 0 = día)
+  function nightFactor(h){
+    if(h>=7 && h<=17) return 0;
+    if(h>5 && h<7)   return (7-h)/2;
+    if(h>17 && h<19.5) return (h-17)/2.5;
+    return 1;
+  }
+  // factor "dorado" (amanecer/atardecer) para el resplandor del horizonte
+  function goldFactor(h){
+    const d1=Math.max(0,1-Math.abs(h-6.7)/1.6);  // amanecer
+    const d2=Math.max(0,1-Math.abs(h-18.4)/1.6); // atardecer
+    return Math.min(1, d1+d2);
+  }
+  // posición del astro (sol de día, luna de noche) en arco
+  function bodyState(h){
+    let isSun = h>=6 && h<18;
+    // progreso 0→1 dentro del periodo visible
+    let p = isSun ? (h-6)/12 : ((h<6? h+6 : h-18)/12);
+    const x = 8 + p*84;                  // 8% → 92% horizontal
+    const y = 70 - Math.sin(p*Math.PI)*52; // arco (alto al centro)
+    return {isSun, x, y};
+  }
+
+  const skyEl=document.getElementById('sky'),
+        starsEl=document.getElementById('stars'),
+        glowEl=document.getElementById('glow'),
+        bodyEl=document.getElementById('body'),
+        clockEl=document.getElementById('clock');
+
+  // generar estrellas una sola vez
+  (function makeStars(){
+    let html='';
+    for(let i=0;i<160;i++){
+      const s=(Math.random()*2+0.5).toFixed(1);
+      const x=(Math.random()*100).toFixed(2), y=(Math.random()*70).toFixed(2);
+      const d=(Math.random()*3+1.5).toFixed(1);
+      html+=`<div class="star" style="width:${s}px;height:${s}px;left:${x}%;top:${y}%;--d:${d}s"></div>`;
+    }
+    starsEl.innerHTML=html;
+  })();
+
+  function update(){
+    const now=new Date();
+    const hour=now.getHours()+now.getMinutes()/60+now.getSeconds()/3600;
+    const {top,bot}=skyAt(hour);
+    skyEl.style.background=`linear-gradient(to bottom, rgb(${top[0]},${top[1]},${top[2]}) 0%, rgb(${bot[0]},${bot[1]},${bot[2]}) 100%)`;
+    starsEl.style.opacity=nightFactor(hour).toFixed(2);
+    glowEl.style.opacity=goldFactor(hour).toFixed(2);
+
+    const b=bodyState(hour);
+    bodyEl.style.left=b.x+'%';
+    bodyEl.style.top=b.y+'%';
+    if(b.isSun){
+      bodyEl.style.background='radial-gradient(circle, #fff7e0 0%, #ffd27a 45%, rgba(255,180,90,0) 72%)';
+      bodyEl.style.boxShadow='0 0 80px 30px rgba(255,200,110,.45)';
+      bodyEl.style.opacity='0.95';
+    } else {
+      bodyEl.style.background='radial-gradient(circle, #f4f6ff 0%, #c8cfe6 50%, rgba(200,207,230,0) 72%)';
+      bodyEl.style.boxShadow='0 0 50px 14px rgba(200,210,255,.30)';
+      bodyEl.style.opacity='0.9';
+    }
+
+    clockEl.textContent=now.toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'});
+  }
+  update();
+  setInterval(update,1000);
+</script>
+</body>
+</html>
