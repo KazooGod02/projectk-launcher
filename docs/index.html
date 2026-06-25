@@ -15,9 +15,9 @@
   /* resplandor cálido del horizonte (amanecer/atardecer) */
   #glow{position:fixed;left:0;right:0;bottom:0;height:55%;z-index:2;pointer-events:none;transition:opacity 2s linear;
         background:radial-gradient(ellipse 80% 100% at 50% 120%, rgba(255,150,70,.55) 0%, rgba(255,110,60,.18) 40%, transparent 70%)}
-  /* astro (sol/luna) que recorre un arco */
-  #body{position:fixed;z-index:2;width:90px;height:90px;border-radius:50%;pointer-events:none;
-        transform:translate(-50%,-50%);transition:opacity 2s linear, background 2s linear, box-shadow 2s linear}
+  /* marca K, abajo al centro, pequeña y semitransparente */
+  #kmark{position:fixed;bottom:5.5%;left:50%;transform:translateX(-50%);z-index:4;height:38px;width:auto;
+         opacity:.45;pointer-events:none;filter:drop-shadow(0 0 6px rgba(255,255,255,.25))}
 
   /* ── LUZ CENTRAL / BOTÓN OJO ── */
   #eye{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);z-index:5;
@@ -42,10 +42,6 @@
   #eye:hover::before{width:280%;height:280%;background:radial-gradient(circle, rgba(255,255,255,.45) 0%, transparent 62%)}
   #eye:hover .eye-icon{opacity:1;transform:scale(1)}
 
-  /* reloj sutil opcional, esquina */
-  #clock{position:fixed;bottom:14px;right:18px;z-index:6;color:rgba(255,255,255,.35);
-         font-size:12px;letter-spacing:.15em;font-variant-numeric:tabular-nums;pointer-events:none}
-
   @media (prefers-reduced-motion:reduce){.star,#eye .spot{animation:none}}
 </style>
 </head>
@@ -53,7 +49,7 @@
   <div id="sky"></div>
   <div id="stars"></div>
   <div id="glow"></div>
-  <div id="body"></div>
+  <img id="kmark" src="k.png" alt="K" onerror="this.style.display='none'"/>
 
   <a id="eye" href="#" title="">
     <div class="spot"></div>
@@ -63,7 +59,6 @@
     </svg>
   </a>
 
-  <div id="clock"></div>
 
 <script>
   // ── Enlace de descarga del launcher oculto ("aún no público") ──
@@ -104,21 +99,9 @@
     const d2=Math.max(0,1-Math.abs(h-18.4)/1.6); // atardecer
     return Math.min(1, d1+d2);
   }
-  // posición del astro (sol de día, luna de noche) en arco
-  function bodyState(h){
-    let isSun = h>=6 && h<18;
-    // progreso 0→1 dentro del periodo visible
-    let p = isSun ? (h-6)/12 : ((h<6? h+6 : h-18)/12);
-    const x = 8 + p*84;                  // 8% → 92% horizontal
-    const y = 70 - Math.sin(p*Math.PI)*52; // arco (alto al centro)
-    return {isSun, x, y};
-  }
-
   const skyEl=document.getElementById('sky'),
         starsEl=document.getElementById('stars'),
-        glowEl=document.getElementById('glow'),
-        bodyEl=document.getElementById('body'),
-        clockEl=document.getElementById('clock');
+        glowEl=document.getElementById('glow');
 
   // generar estrellas una sola vez
   (function makeStars(){
@@ -139,21 +122,6 @@
     skyEl.style.background=`linear-gradient(to bottom, rgb(${top[0]},${top[1]},${top[2]}) 0%, rgb(${bot[0]},${bot[1]},${bot[2]}) 100%)`;
     starsEl.style.opacity=nightFactor(hour).toFixed(2);
     glowEl.style.opacity=goldFactor(hour).toFixed(2);
-
-    const b=bodyState(hour);
-    bodyEl.style.left=b.x+'%';
-    bodyEl.style.top=b.y+'%';
-    if(b.isSun){
-      bodyEl.style.background='radial-gradient(circle, #fff7e0 0%, #ffd27a 45%, rgba(255,180,90,0) 72%)';
-      bodyEl.style.boxShadow='0 0 80px 30px rgba(255,200,110,.45)';
-      bodyEl.style.opacity='0.95';
-    } else {
-      bodyEl.style.background='radial-gradient(circle, #f4f6ff 0%, #c8cfe6 50%, rgba(200,207,230,0) 72%)';
-      bodyEl.style.boxShadow='0 0 50px 14px rgba(200,210,255,.30)';
-      bodyEl.style.opacity='0.9';
-    }
-
-    clockEl.textContent=now.toLocaleTimeString('es-MX',{hour:'2-digit',minute:'2-digit'});
   }
   update();
   setInterval(update,1000);
