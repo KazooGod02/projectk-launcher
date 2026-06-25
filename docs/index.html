@@ -42,6 +42,24 @@
   #eye:hover::before{width:280%;height:280%;background:radial-gradient(circle, rgba(255,255,255,.45) 0%, transparent 62%)}
   #eye:hover .eye-icon{opacity:1;transform:scale(1)}
 
+  /* ── CONTADOR (arriba del círculo central) ── */
+  #cd{position:fixed;top:33%;left:50%;transform:translate(-50%,-50%);z-index:5;
+      display:flex;align-items:flex-start;gap:12px;color:rgba(255,255,255,.92);
+      font-variant-numeric:tabular-nums;pointer-events:none;text-shadow:0 0 20px rgba(255,255,255,.35)}
+  #cd .u{display:flex;flex-direction:column;align-items:center;min-width:58px}
+  #cd .u span{font-size:42px;font-weight:200;line-height:1;letter-spacing:.04em}
+  #cd .u i{font-size:10px;font-style:normal;letter-spacing:.25em;text-transform:uppercase;
+           color:rgba(255,255,255,.45);margin-top:8px}
+  #cd .s{font-size:32px;font-weight:200;color:rgba(255,255,255,.35);margin-top:3px}
+
+  /* ── BLOQUEO MÓVIL (fade a negro) ── */
+  #mobile-block{position:fixed;inset:0;z-index:9999;background:#000;display:flex;
+       align-items:center;justify-content:center;text-align:center;padding:32px;
+       opacity:0;pointer-events:none;transition:opacity 1.3s ease}
+  #mobile-block.show{opacity:1;pointer-events:all}
+  #mobile-block .mb{color:#fff;font-size:clamp(17px,5.5vw,26px);font-weight:300;
+       letter-spacing:.16em;line-height:1.9}
+
   @media (prefers-reduced-motion:reduce){.star,#eye .spot{animation:none}}
 </style>
 </head>
@@ -50,6 +68,20 @@
   <div id="stars"></div>
   <div id="glow"></div>
   <img id="kmark" src="k.png" alt="K" onerror="this.style.display='none'"/>
+
+  <!-- Bloqueo en móvil -->
+  <div id="mobile-block"><div class="mb">ESTA PÁGINA SOLO ES ACCESIBLE MEDIANTE PC</div></div>
+
+  <!-- Contador arriba del círculo central -->
+  <div id="cd">
+    <div class="u"><span id="cd-d">00</span><i>días</i></div>
+    <div class="s">:</div>
+    <div class="u"><span id="cd-h">00</span><i>hrs</i></div>
+    <div class="s">:</div>
+    <div class="u"><span id="cd-m">00</span><i>min</i></div>
+    <div class="s">:</div>
+    <div class="u"><span id="cd-s">00</span><i>seg</i></div>
+  </div>
 
   <a id="eye" href="#" title="">
     <div class="spot"></div>
@@ -125,6 +157,35 @@
   }
   update();
   setInterval(update,1000);
+
+  // ── CONTADOR: lunes 29 de junio de 2026, 5:00 PM hora del Pacífico (PDT) ──
+  const TARGET = Date.UTC(2026, 5, 30, 0, 0, 0);
+  function cdTick(){
+    const diff = TARGET - Date.now();
+    const pad = n => String(n).padStart(2,'0');
+    const el = id => document.getElementById(id);
+    if(diff <= 0){ ['cd-d','cd-h','cd-m','cd-s'].forEach(i=>el(i).textContent='00'); return; }
+    const s = Math.floor(diff/1000);
+    el('cd-d').textContent = pad(Math.floor(s/86400));
+    el('cd-h').textContent = pad(Math.floor(s%86400/3600));
+    el('cd-m').textContent = pad(Math.floor(s%3600/60));
+    el('cd-s').textContent = pad(s%60);
+  }
+  cdTick();
+  setInterval(cdTick,1000);
+
+  // ── BLOQUEO MÓVIL ──
+  (function(){
+    const ua = navigator.userAgent || '';
+    const isMobile = /Android|iPhone|iPad|iPod|webOS|BlackBerry|IEMobile|Opera Mini|Mobile/i.test(ua)
+                  || (('ontouchstart' in window) && window.matchMedia('(max-width: 820px)').matches);
+    if(isMobile){
+      const mb = document.getElementById('mobile-block');
+      document.documentElement.style.overflow='hidden';
+      document.body.style.overflow='hidden';
+      requestAnimationFrame(()=>requestAnimationFrame(()=>mb.classList.add('show')));
+    }
+  })();
 </script>
 </body>
 </html>
