@@ -62,25 +62,25 @@
   {
     "username": "Cesar",
     "password_hash": "3b7ddaf41b9da12cf14b46a82cd175959abca8fb9a76aed79c4b0d11b4468e02",
-    "rank": "vip",
+    "rank": "member",
     "mc_type": "offline"
   },
   {
     "username": "Noe",
     "password_hash": "ac314dbb021b391845555139fd24969880264bc5933c1e09aabbec8286fd4a4e",
-    "rank": "vip",
+    "rank": "member",
     "mc_type": "offline"
   },
   {
     "username": "Alex",
     "password_hash": "40a8210d11997cfd3e16666317f46c6be273dfe0bae5c16908bd86abc6465b53",
-    "rank": "vip",
+    "rank": "member",
     "mc_type": "offline"
   },
   {
     "username": "Cholo",
     "password_hash": "74479b708c3914939c8fe49315fa8c54235ff08a282a624e07f0225d30f7cb23",
-    "rank": "vip",
+    "rank": "member",
     "mc_type": "offline"
   }
 ]
