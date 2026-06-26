@@ -1,5 +1,5 @@
 {
-  "version": "1.1.19",
+  "version": "1.1.20",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "configs": [
@@ -1149,6 +1149,14 @@
       "description": "Al morir caes al Limbo: laberinto liminal con una entidad ciega",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/projectklimbo-1.20.1-1.3.0.jar"
+    },
+    {
+      "name": "Project K Intro 1.0.0",
+      "filename": "projectkintro-1.0.0.jar",
+      "version": "1.0",
+      "description": "Intro cinematica que se reproduce una vez al entrar por primera vez",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/projectkintro-1.0.0.jar"
     },
     {
       "name": "Connected Glass 1.1.14",
