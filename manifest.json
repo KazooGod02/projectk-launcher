@@ -32,6 +32,11 @@
       "path": "resourcepacks/FreshAnimations_v1.10.4.zip",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/FreshAnimations_v1.10.4.zip"
+    },
+    {
+      "path": "projectk_intro/intro.mp4",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/intro.mp4"
     }
   ],
   "enableResourcePacks": [
