@@ -1,5 +1,5 @@
 {
-  "version": "1.1.22",
+  "version": "1.1.23",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "configs": [
@@ -1333,6 +1333,14 @@
       "description": "",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/YungsBridges-1.20-Forge-4.0.3.jar"
+    },
+    {
+      "name": "Simple Voice Chat 2.6.18",
+      "filename": "voicechat-forge-1.20.1-2.6.18.jar",
+      "version": "1.0",
+      "description": "Chat de voz por proximidad",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/voicechat-forge-1.20.1-2.6.18.jar"
     }
   ]
 }
