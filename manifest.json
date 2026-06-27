@@ -1,5 +1,5 @@
 {
-  "version": "1.1.25",
+  "version": "1.1.26",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "configs": [
@@ -1160,7 +1160,7 @@
       "filename": "projectkintro-1.0.0.jar",
       "version": "1.0",
       "description": "Intro cinematica que se reproduce una vez al entrar por primera vez",
-      "hash": "v3",
+      "hash": "v4",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/projectkintro-1.0.0.jar"
     },
     {
