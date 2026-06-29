@@ -82,5 +82,11 @@
     "password_hash": "74479b708c3914939c8fe49315fa8c54235ff08a282a624e07f0225d30f7cb23",
     "rank": "member",
     "mc_type": "offline"
+  },
+  {
+    "username": "Tagda",
+    "password_hash": "e86473d3b6171c741843aad35d13dbe93abac09bc285198f2588515c9385de33",
+    "rank": "member",
+    "mc_type": "offline"
   }
 ]
