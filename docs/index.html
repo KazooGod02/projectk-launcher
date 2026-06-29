@@ -195,8 +195,8 @@
   update();
   setInterval(update,1000);
 
-  // ── CONTADOR: lunes 29 de junio de 2026, 5:00 PM hora del Pacífico (PDT) ──
-  const TARGET = Date.UTC(2026, 5, 30, 0, 0, 0);
+  // ── CONTADOR: lunes 29 de junio de 2026, 2:00 PM hora del Pacífico (PDT) ──
+  const TARGET = Date.UTC(2026, 5, 29, 21, 0, 0);
   function cdTick(){
     const diff = TARGET - Date.now();
     const pad = n => String(n).padStart(2,'0');
