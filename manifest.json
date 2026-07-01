@@ -1,5 +1,5 @@
 {
-  "version": "1.1.31",
+  "version": "1.1.32",
   "mc_version": "1.20.1",
   "forge_version": "1.20.1-47.4.10",
   "configs": [
@@ -37,10 +37,16 @@
       "path": "projectk_intro/intro.mp4",
       "hash": "v1",
       "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/intro.mp4"
+    },
+    {
+      "path": "resourcepacks/ProjectK-Resource-Pack.zip",
+      "hash": "v1",
+      "url": "https://github.com/KazooGod02/projectk-launcher/releases/download/v1.0.0/ProjectK-Resource-Pack.zip"
     }
   ],
   "enableResourcePacks": [
-    "FreshAnimations_v1.10.4.zip"
+    "FreshAnimations_v1.10.4.zip",
+    "ProjectK-Resource-Pack.zip"
   ],
   "news": [
     {
