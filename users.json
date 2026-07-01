@@ -88,5 +88,23 @@
     "password_hash": "e86473d3b6171c741843aad35d13dbe93abac09bc285198f2588515c9385de33",
     "rank": "member",
     "mc_type": "offline"
+  },
+  {
+    "username": "Abraham",
+    "password_hash": "217efccd7d459c53a6847855172029412b2cb4d709bf89028fcf56cf7f42108d",
+    "rank": "member",
+    "mc_type": "offline"
+  },
+  {
+    "username": "Tuba",
+    "password_hash": "4ec753f7c301aec6ad7c35685c89c5571278af412e7ce6a7e2f76a9964fdd8f2",
+    "rank": "member",
+    "mc_type": "offline"
+  },
+  {
+    "username": "Big Boss",
+    "password_hash": "e2ee7cb508ae85c2b0a7a88584881a28b524aab2ec403a6efd4ab04a228e1dae",
+    "rank": "member",
+    "mc_type": "offline"
   }
 ]
